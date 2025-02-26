@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Your Sunrise</h1>
+        <p>Customize the colors and watch the magic happen!</p>
+        
+        <div class="controls">
+          <label for="skyColor">Sky:</label>
+          <input type="color" id="skyColor" value="#1e3c72">
+          
+          <label for="sunColor">Sun:</label>
+          <input type="color" id="sunColor" value="#ffcc00">
+          
+          <label for="horizonColor">Horizon:</label>
+          <input type="color" id="horizonColor" value="#2a5298">
+        </div>
+        
+        <div class="scene">
+          <div class="sky"></div>
+          <div class="horizon"></div>
+          <div class="sun"></div>
+        </div>
+      </div>
+      <script src="./app.js"></script>
+</body>
+</html>
